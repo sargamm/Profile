@@ -15,8 +15,8 @@ function ProjectCard(props){
         <Collapse in={open}>
         <div id="collapse-text">
           <p style={{color:"#bebebe"}}>{props.description}</p>
-          <Button href={props.link}>Code</Button>
-          {props.deployed && <Button href={props.deployed}>Project</Button>}
+          <Button variant="dark" href={props.link}>Code</Button>
+          {props.deployed && <Button variant="dark" href={props.deployed}>Project</Button>}
         </div>
       </Collapse>
         </>
