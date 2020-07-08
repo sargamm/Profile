@@ -22,7 +22,7 @@ function Projects(){
                         <Row>
                         <ProjectCard width="100%" 
                         title="VacciCure" 
-                        image="../Vaccicure.jpg"
+                        image="Vaccicure.jpg"
                         description="A Database Project made with flask on a Vaccination Curation System that
                          digitizes the vaccination records of the citizens and the health centres
                          alongwith providing necessary information about required vaccines for a 
@@ -35,7 +35,7 @@ function Projects(){
                         <Row>
                         <ProjectCard width="30%" 
                         title="Multi User Chat System" 
-                        image="../linux.jpg"
+                        image="linux.jpg"
                         description="A Multi User Chat System implemented using the linux IPC Mechanism."
                         link="https://github.com/sargamm/multi-user-chat-system"
                         />
@@ -83,7 +83,7 @@ function Projects(){
                         <Row>
                         <ProjectCard width="30%" 
                         title="Board Result Analysis" 
-                        image="../BoardResult.jpg"
+                        image="BoardResult.jpg"
                         description="Board Results are sent to schools in a text file format. 
                         This Project reads the Result from a text file, 
                         converts it to a binary file so that it can be analysed easily."
@@ -91,14 +91,14 @@ function Projects(){
                         <ProjectCard width="59%" 
                         height="100%" 
                         title="Smart Mirror" 
-                        image="../smartmirror.jpg"
+                        image="smartmirror.jpg"
                         description="A Mirror that displays weather, mailbox, calender, events schedule in real time. The project was developed with the help of Raspberri Pi and python. ( Team Size - 4 )."
                         link="https://github.com/sargamm/Smart-Magic-Mirror"/>
                         </Row>
                         <Row>
                         <ProjectCard width="100%" 
                         title="Plants Vs Zombies" 
-                        image="../pvz.jpeg"
+                        image="pvz.jpeg"
                         description="A clone of the Plants Vs Zombies Game originally developed by PopCap Games. The game is built using JavaFX. ( Team Size - 2 )."
                         link="https://github.com/sargamm/PlantsVsZombies"/>
                         </Row>
@@ -111,7 +111,7 @@ function Projects(){
                             <Row>
                         <ProjectCard width="100%" 
                         title="Cyc-Glove" 
-                        image="../glove.JPG"
+                        image="glove.JPG"
                         description="A modern technology glove designed specially for cyclists and joggers. Get directions, indicate for a turn and make and receive calls with this smart glove. 
                         The project consists of three main features: 
                         1. Navigation You can set up your destination and navigate your way. The right hand glove vibrates if you are to head right and the same goes with the left glove.
@@ -124,12 +124,12 @@ function Projects(){
                             <Row>
                         <ProjectCard width="30%" 
                         title="Multiple Reader Writer System" 
-                        image="../linux.jpg"
+                        image="linux.jpg"
                         description="A multiple reader writer system with synchronisation with threads using mutex "
                         link="https://github.com/sargamm/multiple-reader-writer-system"/>
                         <ProjectCard width="59%"
                         title="Portfolio" 
-                        image="../me.png"
+                        image="me.png"
                         description=" A complete introduction to my profile"
                         link="https://github.com/sargamm/me"/>
                         </Row>

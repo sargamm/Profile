@@ -8,7 +8,7 @@ function TechnicalProfiles(){
                 <CardDeck>
                 <Card style={{ width: '25rem' , backgroundColor:"#a6c1ee", margin: "5% 2%"}}>
                 <Card.Header style={{paddingBottom:"2px"}}><p className="Profile">CodeChef</p></Card.Header>
-                <Card.Img variant="top" src="../codechef.jpeg" style={{paddingLeft:"5%", paddingRight:"5%", height:"100px"}}/>
+                <Card.Img variant="top" src="codechef.jpeg" style={{paddingLeft:"5%", paddingRight:"5%", height:"100px"}}/>
                 <Card.Body>
                     <Card.Text>
                     <i className="fa fa-star"></i>
@@ -23,7 +23,7 @@ function TechnicalProfiles(){
                 {/* <Col md={4}> */}
                 <Card style={{ width: '25rem' , backgroundColor:"#a6c1ee" , margin: " 5% 2% "}}>
                 <Card.Header style={{paddingBottom:"2px"}}><p className="Profile">OpenGenus Foundation</p></Card.Header>
-                <Card.Img variant="top" src="../ope.png" style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
+                <Card.Img variant="top" src="ope.png" style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
                 <Card.Body>
                     <Card.Text>
                     <p>Author at the OpenGenus IQ Platform. Published 5 articles open and free for all.</p>
@@ -33,7 +33,7 @@ function TechnicalProfiles(){
                 </Card>
                 <Card style={{ width: '25rem' , backgroundColor:"#a6c1ee", margin: " 5% 2% "}}>
                 <Card.Header style={{paddingBottom:"2px"}}><p className="Profile">LeetCode</p></Card.Header>
-                <Card.Img variant="top" src="../leetcode.png" style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
+                <Card.Img variant="top" src="leetcode.png" style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
                 <Card.Body>
                     <Card.Text>
                     <i className="fa fa-star"></i>

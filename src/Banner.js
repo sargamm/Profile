@@ -9,7 +9,7 @@ function Banner(){
         <div className="Banner">
             <Row >
                 <Col lg={6} md={12}>
-                    <img className="Banner-img" src="../web1mirror.png"/>
+                    <img className="Banner-img" src="web1mirror.png"/>
                 </Col>
                 <Col lg={6} md={12}>
                    
