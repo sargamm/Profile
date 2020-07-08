@@ -30,10 +30,10 @@ function Banner(){
                         <a className="SocialLink" onClick={() => setOpen(!Open)} aria-controls="collapse-text" aria-expanded={Open} style={{textDecoration:"none",color:"inherit"}}><i className="fa fa-envelope Social" /></a> 
                         </div>
                         <Fade in={Open}>
-                <div id="collapse-text" className="mail">
-                    <p style={{ textAlign:"flex-end"}}>Reach out at - sargam18262@iiitd.ac.in</p>
-                </div>
-            </Fade>
+                            <div id="collapse-text" className="mail">
+                                <p style={{ textAlign:"flex-end"}}>Reach out at - sargam18262@iiitd.ac.in</p>
+                            </div>
+                        </Fade>
                 </Col>
             </Row>
         </div>
