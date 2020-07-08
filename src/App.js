@@ -5,7 +5,6 @@ import Banner from './Banner.js';
 import Projects from './Projects.js';
 import Intro from'./Intro.js';
 import Timeline from './Timeline'
-import Interests from './Interests'
 import TechnicalProfiles from './TechnicalProfiles';
 import CoCurricular from './CoCurricular';
 
@@ -26,7 +25,6 @@ function App() {
       <Timeline/>
       <h1 className="title"> CO-CURRICULARS </h1>
       <CoCurricular/>
-      {/* <Interests /> */}
     </div>
   );
 }

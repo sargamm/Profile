@@ -1,5 +1,9 @@
 import React from 'react';
 import { Row, Col, Card,Button, CardDeck } from 'react-bootstrap';
+import leetcode from './assets/leetcode.png'
+import opengenus from './assets/ope.png'
+import codechef from './assets/codechef.jpeg'
+// import
 function TechnicalProfiles(){
     return(
         <>
@@ -8,7 +12,7 @@ function TechnicalProfiles(){
                 <CardDeck>
                 <Card style={{ width: '25rem' , backgroundColor:"#a6c1ee", margin: "5% 2%"}}>
                 <Card.Header style={{paddingBottom:"2px"}}><p className="Profile">CodeChef</p></Card.Header>
-                <Card.Img variant="top" src="codechef.jpeg" style={{paddingLeft:"5%", paddingRight:"5%", height:"100px"}}/>
+                <Card.Img variant="top" src={codechef} style={{paddingLeft:"5%", paddingRight:"5%", height:"100px"}}/>
                 <Card.Body>
                     <Card.Text>
                     <i className="fa fa-star"></i>
@@ -19,11 +23,9 @@ function TechnicalProfiles(){
                 </Card.Body>
                 <Button variant="dark" href="https://www.codechef.com/users/verve_11">Profile</Button>
                 </Card>
-                {/* </Col> */}
-                {/* <Col md={4}> */}
                 <Card style={{ width: '25rem' , backgroundColor:"#a6c1ee" , margin: " 5% 2% "}}>
                 <Card.Header style={{paddingBottom:"2px"}}><p className="Profile">OpenGenus Foundation</p></Card.Header>
-                <Card.Img variant="top" src="ope.png" style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
+                <Card.Img variant="top" src={opengenus} style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
                 <Card.Body>
                     <Card.Text>
                     <p>Author at the OpenGenus IQ Platform. Published 5 articles open and free for all.</p>
@@ -33,7 +35,7 @@ function TechnicalProfiles(){
                 </Card>
                 <Card style={{ width: '25rem' , backgroundColor:"#a6c1ee", margin: " 5% 2% "}}>
                 <Card.Header style={{paddingBottom:"2px"}}><p className="Profile">LeetCode</p></Card.Header>
-                <Card.Img variant="top" src="leetcode.png" style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
+                <Card.Img variant="top" src={leetcode} style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
                 <Card.Body>
                     <Card.Text>
                     <i className="fa fa-star"></i>
@@ -43,7 +45,6 @@ function TechnicalProfiles(){
                 </Card.Body>
                 <Button variant="dark" href="https://leetcode.com/sargamm/">Profile</Button>
                 </Card>
-                {/* </Col> */}
                 </CardDeck>
             </Row>
         </div>

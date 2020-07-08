@@ -1,15 +1,14 @@
 import React,{useState} from 'react';
 import {Row,Col, Collapse, Fade} from 'react-bootstrap'
-import NavBar from'./NavBar'
-import Social from './Social.js'
 import { CSSTransitionGroup } from 'react-transition-group';
+import bannerImage from './assets/web1mirror.png'
 function Banner(){
     const [Open, setOpen] = useState(false);
     return(
         <div className="Banner">
             <Row >
                 <Col lg={6} md={12}>
-                    <img className="Banner-img" src="web1mirror.png"/>
+                    <img className="Banner-img" src={bannerImage}/>
                 </Col>
                 <Col lg={6} md={12}>
                    

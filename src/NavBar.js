@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Nav} from 'react-bootstrap';
 import {Navbar} from 'react-bootstrap';
 import './App.css';
+import Resume from './assets/resume.pdf'
 
 function NavBar(){
     return(
@@ -12,7 +13,7 @@ function NavBar(){
                 <Nav className="justify-content-center">
                     <Nav.Link href="#home" >Home</Nav.Link>
                     <Nav.Link href="#link">About</Nav.Link>
-                    <Nav.Link href="../resume.pdf">Resume</Nav.Link>
+                    <Nav.Link href={Resume}>Resume</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
