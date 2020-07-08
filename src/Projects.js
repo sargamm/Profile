@@ -12,7 +12,7 @@ import CycGlove from './assets/glove.JPG'
 
 function Projects(){
     return(
-        <div className="Projects">
+        <div className="Projects" >
             <div className="ProjectsDiv">
                 <Row>
                  <Col lg={4} md={6} sm={12}>

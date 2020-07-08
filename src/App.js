@@ -7,19 +7,18 @@ import Intro from'./Intro.js';
 import Timeline from './Timeline'
 import TechnicalProfiles from './TechnicalProfiles';
 import CoCurricular from './CoCurricular';
-
-// import 'bootstrap/dist/css/bootstrap.min.css'
+import Footer from './Footer'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <NavBar/>
-      <Banner />
-      <h1 className="title"> ABOUT ME </h1>
+      <Banner/>
+      <h1 className="title" id="about"> ABOUT ME </h1>
       <Intro />
       <h1 className="title"> TECH-PROFILES </h1>
       <TechnicalProfiles/>
-      <h1 className="title"> PROJECTS </h1>
+      <h1 className="title" id="projects"> PROJECTS </h1>
       <Projects/>
       <h1 className="title"> LIFE SO FAR </h1>
       <Timeline/>

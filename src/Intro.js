@@ -3,7 +3,7 @@ import {Row, Col} from 'react-bootstrap'
 import {CSSTransitionGroup} from 'react-transition-group'
 function Intro(){
     return(
-        <div className="Intro">
+        <div className="Intro" >
             <Row>
                 <Col sm={12}>
                 
