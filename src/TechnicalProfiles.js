@@ -10,7 +10,7 @@ function TechnicalProfiles(){
         <div className="TechnicalProfiles">
             <Row>
                 <CardDeck>
-                <Card style={{ width: '25rem' , backgroundColor:"#a6c1ee", margin: "5% 2%"}}>
+                <Card style={{ width: '40vh' , backgroundColor:"#a6c1ee", margin: "5% 2%"}}>
                 <Card.Header style={{paddingBottom:"2px"}}><p className="Profile">CodeChef</p></Card.Header>
                 <Card.Img variant="top" src={codechef} style={{paddingLeft:"5%", paddingRight:"5%", height:"100px"}}/>
                 <Card.Body>
@@ -23,7 +23,7 @@ function TechnicalProfiles(){
                 </Card.Body>
                 <Button variant="dark" href="https://www.codechef.com/users/verve_11">Profile</Button>
                 </Card>
-                <Card style={{ width: '25rem' , backgroundColor:"#a6c1ee" , margin: " 5% 2% "}}>
+                <Card style={{ width: '40vh' , backgroundColor:"#a6c1ee" , margin: "5% 2% "}}>
                 <Card.Header style={{paddingBottom:"2px"}}><p className="Profile">OpenGenus Foundation</p></Card.Header>
                 <Card.Img variant="top" src={opengenus} style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
                 <Card.Body>
@@ -33,7 +33,7 @@ function TechnicalProfiles(){
                 </Card.Body>
                 <Button variant="dark" href="https://iq.opengenus.org/author/sargam/">Profile</Button>
                 </Card>
-                <Card style={{ width: '25rem' , backgroundColor:"#a6c1ee", margin: " 5% 2% "}}>
+                <Card style={{ width: '40vh' , backgroundColor:"#a6c1ee", margin: " 5% 2% "}}>
                 <Card.Header style={{paddingBottom:"2px"}}><p className="Profile">LeetCode</p></Card.Header>
                 <Card.Img variant="top" src={leetcode} style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
                 <Card.Body>
