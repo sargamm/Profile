@@ -25,7 +25,7 @@ function Projects(){
                         that digitizes the vaccination records of the citizens and the health centres 
                         alongwith providing necessary information about required vaccines for a particular country 
                         and also helping with the accessibility to the health centres. 
-                        Hence providing a stop destination for the vaccination and related health care statistics.( Team Size - 5 )."
+                        Hence providing a stop destination for the vaccination and related health care statistics. (Team Size - 5)."
                         link="https://github.com/sargamm/VacciCure"
                         deployed=""
                         />
@@ -61,14 +61,14 @@ function Projects(){
                         height="100%" 
                         title="Smart Mirror" 
                         image={SmartMirror}
-                        description="A Mirror that displays weather, mailbox, calender, events schedule in real time. The project was developed with the help of Raspberri Pi and python. ( Team Size - 4 )."
+                        description="A Mirror that displays weather, mailbox, calender, events schedule in real time. The project was developed with the help of Raspberri Pi and python. (Team Size - 4)."
                         link="https://github.com/sargamm/Smart-Magic-Mirror"/>
                         </Row>
                         <Row>
                         <ProjectCard width="100%" 
                         title="Plants Vs Zombies" 
                         image={PvZ}
-                        description="A clone of the Plants Vs Zombies Game originally developed by PopCap Games. The game is built using JavaFX. ( Team Size - 2 )."
+                        description="A clone of the Plants Vs Zombies Game originally developed by PopCap Games. The game is built using JavaFX. (Team Size - 2)."
                         link="https://github.com/sargamm/PlantsVsZombies"/>
                         </Row>
                     </div>
