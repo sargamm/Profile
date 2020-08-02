@@ -7,9 +7,8 @@ import sortVisualiser from './assets/sortv2.png'
 import BoardResultAnalysis from './assets/BoardResult.jpg'
 import SmartMirror from './assets/smartmirror.jpg'
 import PvZ from './assets/pvz.jpeg'
-import me from './assets/me.png'
 import CycGlove from './assets/glove.JPG'
-
+import tictactoe from './assets/tictactoe.png'
 function Projects(){
     return(
         <div className="Projects" >
@@ -97,10 +96,12 @@ function Projects(){
                         description="A multiple reader writer system with synchronisation with threads using mutex "
                         link="https://github.com/sargamm/multiple-reader-writer-system"/>
                         <ProjectCard width="59%"
-                        title="Portfolio" 
-                        image={me}
-                        description=" A complete introduction to my profile"
-                        link="https://github.com/sargamm/me"/>
+                        title="Unwinnable tic-tac-toe" 
+                        image={tictactoe}
+                        description=" An implementation of the tic tac toe game using the Minimax Algorithm"
+                        link="https://github.com/sargamm/tic-tac-toe"
+                        deployed="https://sargamm.github.io/tic-tac-toe/"
+                        />
                         </Row>
                         </Col>
                         </Row>
