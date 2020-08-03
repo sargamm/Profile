@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Card,Button, CardDeck } from 'react-bootstrap';
+import { Row,Card,Button,CardDeck } from 'react-bootstrap';
 import leetcode from './assets/leetcode.png'
 import opengenus from './assets/ope.png'
 import codechef from './assets/codechef.jpeg'
@@ -18,7 +18,7 @@ function TechnicalProfiles(){
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
-                    <p>Rating: 1690</p>
+                    Rating: 1690
                     </Card.Text>
                 </Card.Body>
                 <Button variant="dark" href="https://www.codechef.com/users/verve_11">Profile</Button>
@@ -28,7 +28,7 @@ function TechnicalProfiles(){
                 <Card.Img variant="top" src={opengenus} style={{paddingLeft:"5%", paddingRight:"5%",height:"100px"}}/>
                 <Card.Body>
                     <Card.Text>
-                    <p>Author at the OpenGenus IQ Platform. Published 5 articles open and free for all.</p>
+                    Author at the OpenGenus IQ Platform. Published 5 articles open and free for all.
                     </Card.Text>
                 </Card.Body>
                 <Button variant="dark" href="https://iq.opengenus.org/author/sargam/">Profile</Button>
@@ -40,7 +40,7 @@ function TechnicalProfiles(){
                     <Card.Text>
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
-                    <p>56 Problems Solved.</p>
+                    56 Problems Solved.
                     </Card.Text>
                 </Card.Body>
                 <Button variant="dark" href="https://leetcode.com/sargamm/">Profile</Button>

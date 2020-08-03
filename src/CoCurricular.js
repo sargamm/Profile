@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardColumns, Card, Col, Button, Image, Row } from 'react-bootstrap'
+import { CardColumns, Card, Col, Button, Row } from 'react-bootstrap'
 import Odyssey from './assets/odyssey.png'
 import Esya from './assets/esya.jpeg'
 import ECell from './assets/Ecell.png'

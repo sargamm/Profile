@@ -6,9 +6,10 @@ import linux from './assets/linux.jpg'
 import sortVisualiser from './assets/sortv2.png'
 import BoardResultAnalysis from './assets/BoardResult.jpg'
 import SmartMirror from './assets/smartmirror.jpg'
-import PvZ from './assets/pvz.jpeg'
+import PvZ from './assets/pvz.png'
 import CycGlove from './assets/glove.JPG'
 import tictactoe from './assets/tictactoe.png'
+
 function Projects(){
     return(
         <div className="Projects" >
@@ -24,7 +25,7 @@ function Projects(){
                         that digitizes the vaccination records of the citizens and the health centres 
                         alongwith providing necessary information about required vaccines for a particular country 
                         and also helping with the accessibility to the health centres. 
-                        Hence providing a stop destination for the vaccination and related health care statistics. (Team Size - 5)."
+                        Hence providing a one stop destination for the vaccination and related health care statistics. (Team Size - 5)."
                         link="https://github.com/sargamm/VacciCure"
                         deployed=""
                         />

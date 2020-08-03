@@ -1,13 +1,10 @@
 import React from 'react';
 import {Row, Col} from 'react-bootstrap'
-import {CSSTransitionGroup} from 'react-transition-group'
 function Intro(){
     return(
         <div className="Intro" >
             <Row>
                 <Col sm={12}>
-                
-            <CSSTransitionGroup transitionName="example">
                 <div className="IntroTextBox">
                     <p>I am a budding technophile, exploring new horizons in life and experimenting with ideas. 
                     For me, every concept is an expedition and every project a creation. 
@@ -15,7 +12,6 @@ function Intro(){
                     As an optimist, I believe that an analytic and calm mind can help us perceive the best in the hardest of times.
                     </p>
                 </div>
-                </CSSTransitionGroup>
                 </Col>
             </Row>
             

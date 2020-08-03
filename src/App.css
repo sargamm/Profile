@@ -26,8 +26,8 @@
 }
 
 .Banner{
-  height: 100%;
-  min-height: 500px;
+  /* height: 100%; */
+  /* min-height: 500px; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,42 +56,44 @@
 }
 .BannerTitle{
   font-family: 'Bebas Neue', cursive;
-  font-size: 650%;
+  font-size: 11vh;
   color:#a6c0ee ;
   text-align: right;
   padding-right: 3%;
-  text-shadow: rgba(255, 255, 255, 0.4) 3px 2px;
+  text-shadow: #444444 3px 2px;
  }
  .Social{
    background-image: linear-gradient(to bottom,#fbc2eb,#a6c1ee);
    border-radius: 50%;
-   width: 9vh;
-   font-size: 6vh;
+   width: 7vw;
+   font-size: 5vw;
    text-align: center;
-   padding: 12px;
+   padding: 1vw;
    color:black;
    margin-top: 25%;
    margin-left: 2%;
    margin-right: 2%;
-   margin-bottom: 5%;
+   /* margin-bottom: 5%; */
  }
 
  .SocialIcons{
    text-align: center;
+   
  }
 
 .Social:hover{
-  box-shadow: rgba(0, 0, 0, 0.253) 4px 4px 4px 4px;
+  /* box-shadow: rgba(255,255,255,0.5) 4px 4px 6px 2px; */
+  box-shadow: 0px 0px 5px 10px #444444;
 }
 
 .Intro{
   width: 100%;
   height: 50%;
-  padding: 5% ;
-  padding-bottom: 7%;
+  margin: 3% auto 7% auto;
+  padding: 0 5%;
   text-align: center;
   align-content: center;
-  min-height: 500px; 
+  /* min-height: 500px;  */
 }
 
 
@@ -105,15 +107,13 @@
   border-radius: 30px;
   font-size: 30px;
 }
-.sidebar{
+/* .sidebar{
   background-color: #3f609b;
   width: 100%;
-}
+} */
 .Projects{
-  padding: 5%;
-  margin: 5%;
-  margin-top:0;
-  padding-top: 0;
+  padding: 0 5%;
+  margin: 3% auto 7% auto;
   border-radius: 2px;
 }
 .ProjectsDiv{
@@ -123,7 +123,7 @@
   left: 0;
   right: 0;
   padding-right: 5%;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 .projectOverlay{
   background-color: #000000;
@@ -147,7 +147,6 @@
   max-height: 100%;
   align-content: center;
   overflow: hidden;
-
   border-radius:  5%;
 }
 .cardCover{
@@ -167,9 +166,9 @@
   left: 0;
   right: 0;
   border-radius: 5%;
-  opacity: 0.85;
+  opacity: 0.7;
   transition: .5s ease;
-  background-color: #d7dfdf;
+  background-color: #ffffff;
 }
 .ProjectCard:hover .overlay{
   opacity: 0;
@@ -182,9 +181,11 @@
   text-align: center;
 }
 .Icon{
-  font-size: 150%;
-  padding-top: 30%;
-  text-align: center;
+  font-size: 2vw;
+  /* vertical-align: middle; */
+  /* margin: auto; */
+  padding: 20%;
+  /* text-align: center; */
 }
 .dateClass{
   text-align: start;
@@ -193,14 +194,18 @@
 .title{
   font-weight: 300;
   font-family: 'Bebas Neue', cursive;
-  color: #d6dbe4;
-  text-shadow: 2px 3px #596780;
-  font-size: 10vh;
-  /* padding-top: 20px; */
+  color: #ffffff;
+  text-shadow: 4px 4px #444444;
+  font-size: 5vw;
 }
 
 .timelineBox{
-  padding-bottom: 5%;
+  padding: 1px;
+  width: 90%;
+  margin: 3% auto 7% auto;
+  /* background-image: linear-gradient(to bottom, #fbc2fb,#a6c1ee); */
+  background-color: #444444;
+
 }
 .timeline{
   min-height: 500px;
@@ -210,7 +215,8 @@
   background-size: cover;
   max-width: 100%;
   max-height: 100%;
-  background-color: #927092;
+  /* background-image: linear-gradient(to bottom, #fbc2fb,#a6c1ee); */
+  background-color: #a8a8a8;
   margin: 5%;
 }
 
@@ -218,11 +224,31 @@
   text-align: center;
   display: inline-block;
   padding-bottom: 5%;
+
 }
 .Profile{
   font-weight: 800;
   font-size: 20px;
 }
 .CoCurricular{
-  padding: 2% 10%;
+  padding: 0 10%;
+  margin: 3% auto 7% auto;
 }
+@media (max-width: 575.98px) {
+  .title{
+    font-size: 15vw;
+  }
+  .Social{
+    font-size: 8vw;
+    width: 11vw;
+  }
+  .Icon{
+    font-size: 4vw;
+  }
+ }
+ @media (min-width: 992px) { 
+   .Social{
+     font-size: 3vw;
+     width: 5vw;
+   }
+ }

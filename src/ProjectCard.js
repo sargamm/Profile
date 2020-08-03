@@ -1,4 +1,4 @@
-import React, { Component,useState } from 'react';
+import React, { useState } from 'react';
 import {Image, Button ,Collapse} from 'react-bootstrap'
 
 function ProjectCard(props){

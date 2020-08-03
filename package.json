@@ -2,7 +2,7 @@
   "name": "me",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://sargamm.github.io/Profile/",
+  "homepage": "https://sargamm.github.io/Profile/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@fortawesome/react-fontawesome": "^0.1.11",
@@ -14,6 +14,9 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
+    "react-fade-in": "^1.1.0",
+    "react-loading": "^2.0.3",
+    "react-lottie": "^1.2.3",
     "react-scripts": "3.4.1",
     "react-transition-group": "^1.2.1",
     "react-vertical-timeline-component": "^3.0.2"
@@ -23,8 +26,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
